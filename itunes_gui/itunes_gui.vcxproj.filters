@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{257600fb-c140-43e8-82cd-f6b09a5f3911}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bbca4e8e-240e-43a2-b40c-9e8a02c37af1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f08efe66-8f85-46f7-bbff-2173bd2eb820}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Include">
+      <UniqueIdentifier>{32f3fb05-1085-408a-9ddb-063efda38de4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itunes_gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SendWork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItunesInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItunesFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItunesProtocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItunesProtocolCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\my_lib\include\ByteArray.cpp">
+      <Filter>Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\my_lib\include\AutoCriticalSection.cpp">
+      <Filter>Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\my_lib\include\Base64.cpp">
+      <Filter>Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\my_lib\include\Charset.cpp">
+      <Filter>Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\my_lib\include\ConfData.cpp">
+      <Filter>Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\my_lib\include\gzipHelp.cpp">
+      <Filter>Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\my_lib\include\HttpHeader.cpp">
+      <Filter>Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\my_lib\include\timestamp.cpp">
+      <Filter>Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\my_lib\include\HttpHelp.cpp">
+      <Filter>Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\my_lib\include\Base64String.cpp">
+      <Filter>Source Files\Include</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItunesInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItunesFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItunesProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItunesProtocolCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="itunes_gui.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\itunes_gui.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
